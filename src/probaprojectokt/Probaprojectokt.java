@@ -1,20 +1,31 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package probaprojectokt;
 
-/**
- *
- * @author bella.richard
- */
 public class Probaprojectokt {
-
-    /**
-     * @param args the command line arguments
-     */
+    public static final String Pakli[21]=feltolt();
     public static void main(String[] args) {
-        // TODO code application logic here
+        jatek();
     }
+
+    private static void jatek() {
+        feltolt();
+        kever();
+        
+    }
+    private static void feltolt() {
+        String toltpakli[] = {};
+        String szinek[] = {"P","M","L","T"};
+        String ertek[] = {"Ász","Kir","FEL","X","IX","VIII"};
+        for (int i = 0; i < szinek.length-2; i++) {
+            for (int j = 0; j < ertek.length-1; j++) {
+                toltpakli.
+            }
+        }
+    }
+    private static void kever() {
+    }
+
     
+    
+        
+        
 }
