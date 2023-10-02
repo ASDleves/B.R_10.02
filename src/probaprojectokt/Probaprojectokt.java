@@ -1,7 +1,7 @@
 package probaprojectokt;
 
 public class Probaprojectokt {
-    public static final String Pakli[21]=feltolt();
+    
     public static void main(String[] args) {
         jatek();
     }
@@ -15,11 +15,14 @@ public class Probaprojectokt {
         String toltpakli[] = {};
         String szinek[] = {"P","M","L","T"};
         String ertek[] = {"Ász","Kir","FEL","X","IX","VIII"};
-        for (int i = 0; i < szinek.length-2; i++) {
-            for (int j = 0; j < ertek.length-1; j++) {
-                toltpakli.
+        for (String szin : szinek) {
+            for (String kartya : ertek) {
+              System.out.println(szin+"_"+kartya);  
             }
+            
         }
+        
+ 
     }
     private static void kever() {
     }
